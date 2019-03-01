@@ -48,7 +48,7 @@ class Person {
       this.grade = studentattr.grade;
     }
     listsSubjects(student, arr) {
-       return student[arr].forEach(function(item, i){
+       return student[arr].forEach(function(item){
        console.log(item);
      });
       }
@@ -187,5 +187,4 @@ class Person {
   console.log(ben.standUp("#web18_ben"));
   console.log(ben.debugsCode(trish, "Responsive Design II" ));
   console.log(allie.graduate(allie));
-  console.log(ben.gradeCalc(trish));
   console.log(josh.gradeCalc(trish));
